@@ -41,16 +41,19 @@ https://katgreen117.github.io/Module-1-Challenge/
 ## Installation
 
 Programs Required
+
+* Git Hub account
 * VS Code
 * Git Bash
-* Git Hub account
 
 ## Usage 
 
 * Git hub account for cloning and hosting
 1. Create repository and clone to desktop using SSH key and gitbash (as seen below)
 ![alt text](assets/images/github-cloning.png)
-(SSH needs to be cloned to create the repository on the dektop )
+(SSH needs to be cloned to create the repository on the dektop)
+2. Use VS Code to edit and style code and update the read me 
+
 
 ## Credits
 
