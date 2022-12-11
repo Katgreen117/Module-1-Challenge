@@ -1,55 +1,62 @@
 # Module 1 Challenge
 
-## Description 
+## Description
 
-Your GitHub profile is an extremely important aspect of your public identity as a developer. A well-crafted one allows you to show off your work to other developers as well as potential employers. An important component of your GitHub profile—and one that many new developers often overlook—is the README.md file.
+This is an update of my repo which explains how i refactored code to make our site more visable on google.
 
-The quality of a README often differentiates a good project from a bad project. A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. A good README helps you stand out among the large crowd of developers putting their work on GitHub.
+## The Aim
+To refactor code to make the website fully functional and the code as short as possible and without repetition and to push the changes made into a created respoitory on GitHub.
 
-There's no one right way to structure a good README. There is one very wrong way, however, and that is to not include a README at all or to create a very anemic one. This guide outlines a few best practices. As you progress in your career, you will develop your own ideas about what makes a good README.
+## How was this accomplished
 
-At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? 
+1. Github repository was created and cloned to my computer using GITBASH
+2. Changes to Code using VS CODE
+* Span class was removed from the code as this was effecting part of the text of the website title -Hori"seon". Visually this looked off as the title text contained two different text styles.
+* Div tags were removed and replaced by nav tags, although both function the same, a DIV tag is a html tag whilst a NAV tag is part of the new HTML5 semantic tags. (semantic tags are tags that specifiy what elements are contained so a NAV tag would contain navigation elements , Div tags are without specific meaning - they just define a devision of section )
+* classes (.) where removed from the style sheets to reflect the changes made to the html. As the div tags where removed their (classes(.) are no longer required on the style sheets for that portion of the code amended. on the other hand clases are used to consolidate and style things with repetition so the code can be reduced- such as images with the same attributes. 
+* Div tags were also replaced with < Main > and < section > this enabled repetative code to be removed and thus shortening the code and simplifying it further.
+* Alt attributes where also included , this attribute provides information or brings up functions such as notepad (if set) which basically gives other information for that image if it cant be viewed. The code contains two alt attributes, one brings up a notepad where a usercan report the issue, the other brings up the image description of the broken image.
 
-Lastly, if your project is deployed, include a link to the deployed application here.
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+## Challenges Faced
+* The Github respoitory was created but i made some errors with the files i put in the folder to begin with so i learnt how to delete the intial repository and then recreate it and start again.
+2. When i refactored the code i had an issue with the side block images apearing at the bottom , this was due to a missing angle bracket (>) in the code. (The slightest errors such as a missing . or bracket can reak havok)
 
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
+## Add ons used
+1. Markdown Preview Enhancer
+2. Open in browser
+
+# Deployed result:
+https://katgreen117.github.io/Module-1-Challenge/
 
 
-## Table of Contents (Optional)
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+## Methods of installation and use:
 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
 
-
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+Programs Required
+* VS Code
+* Git Bash
+* Git Hub account
 
 ## Usage 
 
-Provide instructions and examples for use. Include screenshots as needed. 
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-```md
-![alt text](assets/images/screenshot.png)
-```
-
+* Git hub account for cloning and hosting
+1. Create repository and clone to desktop using SSH key and gitbash (as seen below)
+![alt text](assets/images/github-cloning.png)
+(SSH needs to be cloned to create the repository on the dektop )
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+* stack overflow markdowns (https://stackoverflow.com/questions/14494747/how-to-add-images-to-readme-md-on-github)
+* 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 
 ## License
@@ -83,3 +90,8 @@ Go the extra mile and write tests for your application. Then provide examples on
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
+
+
+[def]: #theaim
+[def2]: #theaim
+[def3]: #installation
